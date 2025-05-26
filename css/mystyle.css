@@ -92,8 +92,32 @@ li {
 }
 .hero_para {
     color: #fafafa;
-    text-align: left;
-    font-size: 22px;
+    font-size: 28px;
     font-family: 'Exo';
     line-height: 36px;
+    width: 100%;
+    max-width: 330px;
+}
+p.hero_para:after {
+    content: '';
+    background-image: url('https://rahulbhati4you.github.io/rahulbhati.github.io/images/quote-up.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+img.hero_img:after {
+    content: '';
+    background-image: url(https://rahulbhati4you.github.io/rahulbhati.github.io/images/blob.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    z-index: 999;
 }
