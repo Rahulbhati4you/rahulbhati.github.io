@@ -61,6 +61,7 @@ li {
     max-width: 500px;
     object-fit: cover;
     margin-top: -70px;
+    z-index: 2;
 }
 
 .hero_title {
@@ -114,9 +115,10 @@ li {
     background-image: url(https://rahulbhati4you.github.io/rahulbhati.github.io/images/blob.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    width: 630px;
+    height: 580px;
     position: absolute;
-    top: 0;
-    left: -40px;
+    top: 10px;
+    left: -30px;
+    z-index: 1;
 }
