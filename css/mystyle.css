@@ -98,7 +98,7 @@ li {
     width: 100%;
     max-width: 330px;
 }
-p.hero_para:after {
+/* p.hero_para:after {
     content: '';
     background-image: url('https://rahulbhati4you.github.io/rahulbhati.github.io/images/quote-up.svg');
     background-size: 100%;
@@ -108,8 +108,8 @@ p.hero_para:after {
     position: absolute;
     top: -50px;
     left: 0px;
-}
-img.hero_img:after {
+} */
+.after_img_vector:after {
     content: '';
     background-image: url(https://rahulbhati4you.github.io/rahulbhati.github.io/images/blob.svg);
     background-size: 100%;
@@ -119,5 +119,4 @@ img.hero_img:after {
     position: absolute;
     top: 0;
     left: -40px;
-    z-index: 999;
 }
