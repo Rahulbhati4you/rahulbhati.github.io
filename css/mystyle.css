@@ -60,6 +60,7 @@ li {
 .hero_title {
     font-size: 12.5rem !important;
     line-height: 0.9em !important;
+    font-family: "Urbanist", sans-serif !important;
     text-transform: uppercase;
     letter-spacing: -8px;
     color: #fafafa !important;
