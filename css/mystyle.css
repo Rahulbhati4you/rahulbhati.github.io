@@ -58,10 +58,10 @@ li {
     object-fit: cover;
 }
 .hero_title {
-    font-size: 12.5rem;
-    line-height: 0.9em;
+    font-size: 12.5rem !important;
+    line-height: 0.9em !important;
     text-transform: uppercase;
     letter-spacing: -8px;
-    color: #fafafa;
+    color: #fafafa !important;
     text-align: center;
 }
