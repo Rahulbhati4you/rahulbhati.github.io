@@ -69,7 +69,6 @@ li {
     font-family: "Exo", sans-serif;
     letter-spacing: -2px;
     color: #fafafa !important;
-    text-align: center;
     font-weight: 700;
 }
 .featured_label_black {
@@ -82,4 +81,12 @@ li {
     font-family: 'Exo';
     text-transform: uppercase;
     font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.featured_label_black img {
+    width: 100%;
+    height: 100%;
+    max-width: 15px;
+    padding-bottom: 2px;
 }
