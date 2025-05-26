@@ -38,7 +38,7 @@ li {
     align-items: center;
 }
 
-.navi_item a {
+.navi_item{
     font-optical-sizing: auto;
     font-weight: 500;
     font-size: 16px;
@@ -47,12 +47,12 @@ li {
     text-decoration: none;
 }
 
-.navi_item a.active_nav {
+.navi_item.active_nav {
     color: #82ff1f !important;
 }
 
-.navi_item a:hover {
-    color: #82ff1f90;
+.navi_item:hover {
+    color: #82ff1f;
 }
 
 .hero_img {
