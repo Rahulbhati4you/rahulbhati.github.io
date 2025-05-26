@@ -57,7 +57,7 @@ li {
     max-width: 540px;
     object-fit: cover;
 }
-h1 {
+.hero_title {
     font-size: 12.5rem;
     line-height: 0.9em;
     text-transform: uppercase;
