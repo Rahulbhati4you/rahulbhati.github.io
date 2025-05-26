@@ -90,3 +90,10 @@ li {
     max-width: 15px;
     padding-bottom: 2px;
 }
+.hero_para {
+    color: #fafafa;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Exo';
+    line-height: 36px;
+}
