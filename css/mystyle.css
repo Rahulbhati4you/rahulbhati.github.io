@@ -72,3 +72,12 @@ li {
     text-align: center;
     font-weight: 700;
 }
+.featured_label_black {
+    display: inline-block;
+    border: 1px solid #4f4f4f;
+    border-radius: 100px;
+    color: #fafafa;
+    font-size: 18px;
+    padding: 2px 10px 2px 10px;
+    font-family: "Urbanist", sans-serif;
+}
