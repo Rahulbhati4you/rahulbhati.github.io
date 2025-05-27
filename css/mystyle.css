@@ -135,6 +135,10 @@ footer {
 .footer_wrap {
     border-radius: 30px;
     padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_title {
@@ -160,4 +164,7 @@ footer {
 }
 .social_icons:hover{
     color: #82ff1f;
+}
+.dice_icon{
+    width: 100px;
 }
