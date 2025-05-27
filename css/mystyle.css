@@ -5,7 +5,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Exo", sans-serif;
+    font-family: "Exo", sans-serif !important;
 }
 
 li {
@@ -19,7 +19,12 @@ li {
 .theme_txt_color {
     color: #82ff1f;
 }
-
+.black_title_lg {
+    font-size: 5rem;
+    line-height: 1em;
+    letter-spacing: -3px;
+    color: #111111;
+}
 .header_wrap {
     display: flex;
     justify-content: space-between;
@@ -74,20 +79,29 @@ li {
     font-weight: 700;
 }
 
-.label_black_theme {
+.label_black_theme,
+.label_white_theme {
     margin: 0px 0px 0px 0px;
     padding: 2px 10px 2px 10px;
     border: 1px solid #4f4f4f;
     border-radius: 100px;
     display: inline-block;
-    color: #fafafa;
     font-family: 'Exo';
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 25px;
 }
 
-.label_black_theme img {
+.label_black_theme {
+    color: #fafafa;
+}
+
+.label_white_theme {
+    color: #4f4f4f;
+}
+
+.label_black_theme img,
+.label_white_theme img {
     width: 100%;
     height: 100%;
     max-width: 15px;
@@ -156,15 +170,24 @@ footer {
     text-decoration: none;
     border-bottom: 1px solid #dddddd;
 }
-.social_icons img{
+
+.social_icons img {
     width: 40px;
 }
-.social_icons{
+
+.social_icons {
     display: inline-block;
 }
-.social_icons:hover{
+
+.social_icons:hover {
     color: #82ff1f;
 }
-.dice_icon{
+
+.dice_icon {
     width: 100px;
+}
+
+.specialty_box .icons svg path {
+    color: #82ff1f;
+    fill: #82ff1f;
 }
