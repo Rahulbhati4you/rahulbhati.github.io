@@ -32,11 +32,10 @@ li {
     color: #fafafa;
 }
 
-.black_title_lg,
-.white_title_lg {
+.black_title_lg, .white_title_lg {
     font-size: 5rem;
-    line-height: 1em;
-    letter-spacing: -3px;
+    line-height: 90px;
+    letter-spacing: -1px;
 }
 
 .header_wrap {
