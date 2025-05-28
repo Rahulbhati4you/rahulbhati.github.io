@@ -23,12 +23,16 @@ li {
 .theme_txt_color {
     color: #82ff1f;
 }
-
-.black_title_lg {
+.black_title_lg{
+    color: #111111;
+}
+.white_title_lg {
+    color: #fafafa;
+}
+.black_title_lg, .white_title_lg {
     font-size: 5rem;
     line-height: 1em;
     letter-spacing: -3px;
-    color: #111111;
 }
 
 .header_wrap {
@@ -148,7 +152,7 @@ li {
     z-index: 1;
 }
 
-.specialty_sec {
+.custom_padding {
     padding: 120px 0;
 }
 
