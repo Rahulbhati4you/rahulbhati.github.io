@@ -23,13 +23,17 @@ li {
 .theme_txt_color {
     color: #82ff1f;
 }
-.black_title_lg{
+
+.black_title_lg {
     color: #111111;
 }
+
 .white_title_lg {
     color: #fafafa;
 }
-.black_title_lg, .white_title_lg {
+
+.black_title_lg,
+.white_title_lg {
     font-size: 5rem;
     line-height: 1em;
     letter-spacing: -3px;
@@ -194,46 +198,52 @@ li {
 }
 
 .black_para {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Urbanist", sans-serif;
     line-height: 24px;
     color: #1a1a1a;
 }
+
 .mywork_box {
-    /* background: linear-gradient(130deg, #82ff1f, #76d934, #68b53a, #599239, #497033, #38502b, #25311f, #111111); */
     border-radius: 30px;
     padding: 50px;
     flex: 1;
-    min-height: 400px;
+    min-height: 530px;
     height: 100%;
 }
+
 .mywork_title {
     font-size: 32px;
     font-weight: 600;
     color: #111111;
 }
-.identity_box{
+
+.identity_box {
     background: linear-gradient(130deg, #fafafa, #11111130);
 }
+
 .design_box {
     background: linear-gradient(130deg, #82ff1f, #76d934, #68b53a, #599239, #497033, #38502b, #25311f, #111111);
 }
-.development_box{
-background: linear-gradient(130deg, #1a1a1a, #fafafa50);
+
+.development_box {
+    background: linear-gradient(130deg, #1a1a1a, #fafafa50);
+}
+.development_box .mywork_title, .development_box .black_para{
+    color: #fafafa;
 }
 .mywork_box ul li {
     list-style: none;
     margin-bottom: 15px;
     background: linear-gradient(90deg, #111111, #fafafa01);
-    /* background: linear-gradient(270deg, #111111, #82ff1f); */
     border-radius: 20px;
-    color: #ffffff;
+    color: #fff;
     padding: 5px 20px;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 200;
+    font-size: 14px;
     font-family: 'Urbanist';
+    letter-spacing: 0.5px;
 }
-
 
 footer {
     background-color: #1a1a1a;
