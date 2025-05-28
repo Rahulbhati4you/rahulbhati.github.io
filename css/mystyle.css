@@ -200,7 +200,7 @@ li {
     color: #1a1a1a;
 }
 .mywork_box {
-    background: linear-gradient(130deg, #82ff1f, #76d934, #68b53a, #599239, #497033, #38502b, #25311f, #111111);
+    /* background: linear-gradient(130deg, #82ff1f, #76d934, #68b53a, #599239, #497033, #38502b, #25311f, #111111); */
     border-radius: 30px;
     padding: 50px;
     flex: 1;
@@ -212,6 +212,29 @@ li {
     font-weight: 600;
     color: #111111;
 }
+.identity_box{
+    background: linear-gradient(130deg, #fafafa, #11111130);
+}
+.design_box {
+    background: linear-gradient(130deg, #82ff1f, #76d934, #68b53a, #599239, #497033, #38502b, #25311f, #111111);
+}
+.development_box{
+background: linear-gradient(130deg, #1a1a1a, #fafafa50);
+}
+.mywork_box ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #111111, #fafafa01);
+    /* background: linear-gradient(270deg, #111111, #82ff1f); */
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Urbanist';
+}
+
+
 footer {
     background-color: #1a1a1a;
     padding: 100px 150px 20px;
