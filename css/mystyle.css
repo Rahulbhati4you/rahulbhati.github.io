@@ -31,12 +31,12 @@ li {
 .white_title_lg {
     color: #fafafa;
 }
-
-.black_title_lg,
-.white_title_lg {
+.black_title_lg, .white_title_lg {
     font-size: 5rem;
     line-height: 90px;
     letter-spacing: -1px;
+    width: 100%;
+    max-width: 900px;
 }
 
 .header_wrap {
@@ -213,8 +213,8 @@ li {
 }
 
 .about_header .black_para {
-    font-size: 20px;
-    line-height: 32px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
 }
 
 .black_para {
