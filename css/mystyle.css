@@ -77,17 +77,24 @@ li {
     height: 100%;
     max-width: 380px;
     object-fit: cover;
-    margin-top: -70px;
+    margin-top: -100px;
     z-index: 2;
 }
 
-.hero_title {
+/* .hero_title {
     font-size: 7.5rem !important;
     line-height: 0.9em !important;
     font-family: "Exo", sans-serif;
     letter-spacing: -2px;
     color: #fafafa !important;
     font-weight: 700;
+} */
+.hero_title {
+    font-size: 9rem !important;
+    line-height: 0.9em !important;
+    letter-spacing: -2px;
+    color: #fafafa !important;
+    font-weight: 600;
 }
 
 .label_black_theme,
@@ -122,9 +129,9 @@ li {
 
 .hero_para {
     color: #fafafa;
-    font-size: 28px;
-    font-family: 'Exo';
-    line-height: 36px;
+    font-size: 25px;
+    font-family: 'Urbanist';
+    line-height: 34px;
     width: 100%;
     max-width: 320px;
 }
@@ -145,11 +152,11 @@ li {
     background-image: url(https://rahulbhati4you.github.io/rahulbhati.github.io/images/blob.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 630px;
-    height: 580px;
+    width: 540px;
+    height: 510px;
     position: absolute;
-    top: 10px;
-    left: -30px;
+    top: 0px;
+    left: -40px;
     z-index: 1;
 }
 
